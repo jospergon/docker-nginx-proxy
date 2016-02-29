@@ -1,6 +1,0 @@
-proxy:
-  build: .
-  environment:
-    UPSTREAM_SERVER: 192.168.99.100
-  ports:
-    - "80:80"
