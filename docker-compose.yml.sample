@@ -1,0 +1,7 @@
+proxy:
+  build: .
+  environment:
+    UPSTREAM_SERVER: web_server_ip # example: 192.168.99.100
+    UPSTREAM_PORT: web_server_listening_port # example: 3000
+  ports:
+    - "80:80" # nginx listening port
