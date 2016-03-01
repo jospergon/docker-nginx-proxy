@@ -1,7 +1,7 @@
 proxy:
   image: jospergon/docker-nginx-proxy
   environment:
-    UPSTREAM_SERVER: ec2-54-246-172-73.eu-west-1.compute.amazonaws.com
-    UPSTREAM_PORT: 3000
+    UPSTREAM_SERVER: web_server_ip
+    UPSTREAM_PORT: web_server_port
   ports:
     - "80:80"
